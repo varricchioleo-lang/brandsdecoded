@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Aula BrandsDecoded · Como vender mais com os leads que você já tem</title>
+<link rel="stylesheet" href="fonts/local.css">
+<style>
+  :root{
+    --orange:#FF4500; --black:#1A1410; --offwhite:#FAF8F4; --grey:#6B6B6B; --grey2:#9A9A9A;
+    --bg:var(--offwhite); --fg:var(--black); --muted:var(--grey); --rule:rgba(26,20,16,.14);
+  }
+  html.dark{ --bg:var(--black); --fg:var(--offwhite); --muted:#B5ADA6; --rule:rgba(250,248,244,.16); }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1080px;height:1350px;overflow:hidden}
+  body{background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;position:relative}
+  .pad{position:absolute;left:72px;right:72px}
+  /* top bar */
+  .top{top:64px;display:flex;justify-content:space-between;align-items:center;font-size:19px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+  .top .brand{display:flex;align-items:center;gap:12px}
+  .top .brand i{display:inline-block;width:12px;height:12px;background:var(--orange);border-radius:2px}
+  .top .label{color:var(--muted);font-weight:500}
+  /* title */
+  .title{top:172px;font-family:'Instrument Sans',sans-serif;font-weight:700;font-size:106px;line-height:.98;letter-spacing:-.035em;max-width:960px}
+  .title em{font-style:normal;color:var(--orange)}
+  .sub{top:556px;max-width:600px;font-size:28px;line-height:1.36;color:var(--muted);font-weight:400;letter-spacing:-.005em}
+  /* steps */
+  .steps{top:742px;display:grid;grid-template-columns:auto auto;column-gap:22px;row-gap:16px;align-items:center;justify-content:start;max-width:520px;font-size:17px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500}
+  .steps span b{color:var(--orange);font-weight:600;margin-right:8px}
+  .steps .arr{display:none}
+  /* info block */
+  .info{bottom:84px;left:72px;right:auto;width:520px}
+  .info .when{font-family:'Instrument Sans',sans-serif;font-weight:700;font-size:66px;letter-spacing:-.03em;line-height:1;margin-bottom:28px}
+  .info .when .dot{color:var(--orange);margin:0 10px}
+  .info .who{font-size:30px;font-weight:600;letter-spacing:-.01em;line-height:1.2}
+  .info .who small{display:block;font-size:22px;font-weight:400;color:var(--muted);margin-top:8px;letter-spacing:0}
+  .info .rule{height:1px;background:var(--rule);width:120px;margin-bottom:34px}
+  /* photo */
+  .photo{position:absolute;right:-96px;bottom:0;height:780px;width:auto}
+  .glow{position:absolute;right:-140px;bottom:-120px;width:900px;height:900px;border-radius:50%;
+        background:radial-gradient(closest-side, rgba(125,104,90,.42), rgba(125,104,90,0) 72%);display:none}
+  html.dark .glow{display:block}
+</style>
+</head>
+<body>
+  <div class="pad top">
+    <div class="brand"><i></i>BrandsDecoded</div>
+    <div class="label">Consultoria · Aula da semana</div>
+  </div>
+
+  <h1 class="pad title">Como <em>vender mais</em> com os leads que você já tem</h1>
+
+  <p class="pad sub">O que ajustar no pitch, WhatsApp, reunião e follow-up para aumentar sua conversão até o fechamento.</p>
+
+  <div class="pad steps">
+    <span><b>01</b>Pitch</span><span class="arr">→</span>
+    <span><b>02</b>WhatsApp</span><span class="arr">→</span>
+    <span><b>03</b>Reunião</span><span class="arr">→</span>
+    <span><b>04</b>Follow-up</span>
+  </div>
+
+  <div class="glow"></div>
+  <img class="photo" src="assets/lucas-brito-cutout.png" alt="Lucas Brito">
+
+  <div class="pad info">
+    <div class="when">Quinta-feira<span class="dot">·</span>19h</div>
+    <div class="rule"></div>
+    <div class="who">com Lucas Brito<small>Head Comercial da BrandsDecoded</small></div>
+  </div>
+</body>
+</html>
