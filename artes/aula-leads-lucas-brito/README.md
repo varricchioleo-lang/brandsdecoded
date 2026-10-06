@@ -5,8 +5,10 @@ off-white `#FAF8F4`, laranja `#FF4500`, Instrument Sans (display) e Inter (texto
 
 | Arquivo | O que é |
 |---|---|
-| `arte-aula-leads-lucas-brito-1080x1350.png` | Arte final, versão escura (principal) |
-| `arte-aula-leads-lucas-brito-1080x1350-clara.png` | Variante em fundo off-white |
+| `arte-aula-leads-lucas-brito-1080x1350.png` | Consultoria, versão escura (principal) |
+| `arte-aula-leads-lucas-brito-1080x1350-clara.png` | Consultoria, fundo off-white |
+| `arte-aula-leads-lucas-brito-blueprint-1080x1350.png` | Mentoria Blueprint, versão escura |
+| `arte-aula-leads-lucas-brito-blueprint-1080x1350-clara.png` | Mentoria Blueprint, fundo off-white |
 | `arte.html` | Fonte editável da arte (HTML/CSS) |
 | `assets/lucas-brito-enhanced.png` | Foto original ampliada 2x e nitidez recuperada |
 | `assets/lucas-brito-cutout.png` | Foto tratada com fundo removido (usada na arte) |
@@ -17,7 +19,7 @@ off-white `#FAF8F4`, laranja `#FF4500`, Instrument Sans (display) e Inter (texto
 
 ```bash
 pip install playwright
-python3 render.py "$PWD/arte.html" saida.png dark    # ou "light"
+python3 render.py "$PWD/arte.html" saida.png dark Consultoria   # tema: dark|light · rótulo: Consultoria|Blueprint
 ```
 
 O script usa o Chromium em `/opt/pw-browsers`; ajuste `executable_path` se o caminho for outro.
